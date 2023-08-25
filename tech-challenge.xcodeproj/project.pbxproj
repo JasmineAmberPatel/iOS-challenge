@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D51AF2782A98F5A500146FBE /* tech_challengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51AF2772A98F5A500146FBE /* tech_challengeApp.swift */; };
-		D51AF27A2A98F5A600146FBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51AF2792A98F5A600146FBE /* ContentView.swift */; };
+		D51AF27A2A98F5A600146FBE /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51AF2792A98F5A600146FBE /* CardListView.swift */; };
 		D51AF27C2A98F5A700146FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51AF27B2A98F5A700146FBE /* Assets.xcassets */; };
 		D51AF27F2A98F5A700146FBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51AF27E2A98F5A700146FBE /* Preview Assets.xcassets */; };
 		D51AF2892A98F5A700146FBE /* tech_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51AF2882A98F5A700146FBE /* tech_challengeTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		D51AF2742A98F5A500146FBE /* tech-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tech-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51AF2772A98F5A500146FBE /* tech_challengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tech_challengeApp.swift; sourceTree = "<group>"; };
-		D51AF2792A98F5A600146FBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D51AF2792A98F5A600146FBE /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
 		D51AF27B2A98F5A700146FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D51AF27E2A98F5A700146FBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D51AF2842A98F5A700146FBE /* tech-challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tech-challengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				D51AF2772A98F5A500146FBE /* tech_challengeApp.swift */,
-				D51AF2792A98F5A600146FBE /* ContentView.swift */,
+				D51AF2792A98F5A600146FBE /* CardListView.swift */,
 				D51AF27B2A98F5A700146FBE /* Assets.xcassets */,
 				D51AF27D2A98F5A700146FBE /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D51AF27A2A98F5A600146FBE /* ContentView.swift in Sources */,
+				D51AF27A2A98F5A600146FBE /* CardListView.swift in Sources */,
 				D51AF2782A98F5A500146FBE /* tech_challengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
